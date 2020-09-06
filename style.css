@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;;
+    color:blue;
+    margin-top: 35px;
+}
+h2{
+    color: blue;
+}
+.text-big{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;;
+    color: blue;
+   }
+   .text-small{
+       font-size: 25px;
+       font-family: 'Roboto', sans-serif;;
+   }
+.section{
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ max-width: 80%;
+ margin: auto;
+ padding: 10px;
+}
+h2{
+    font-size: 30px;
+}
+.paras{
+    padding: 0px 50px;
+}
+.thumbnail img{
+    
+    border-radius: 2px;
+    margin-top: 45px;
+}
+.text-small-add{
+
+    text-align: center;
+    font-family: cursive;
+    font-size: xx-large;
+}
+
+
+@media only screen and (max-width: 1140px){
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: center;
+        margin-top: 1px;
+    font-size: 26px;
+    margin-bottom: 11px;
+    }
+    .text-big{
+        text-align: center;
+        margin-top: 12px;
+        font-size: 50px;
+        font-family: cursive;
+        margin-bottom: -14px;
+    }
+    .paras{
+        padding: 0px;
+    }
+    .thumbnail img{
+        height: 250px;
+    width: 300px;
+    margin-top: 45px;
+    margin-bottom: 32px;
+}
+.text-small-add{
+    margin: auto;
+        margin: auto;
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    body{
+        text-align: center;
+    }
+}
